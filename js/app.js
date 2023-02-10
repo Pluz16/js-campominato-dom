@@ -12,7 +12,14 @@ buttonEl.addEventListener(
 }
 )
 
-
+// creo un array di 16 numeri casuali(che non si ripetono)
+const arrayNumbersBomb = []
+ while(arrayNumbersBomb.length < 16) {
+           let randomNumber = Math.floor(Math.random() * 100) + 1
+            if(!arrayNumbersBomb.includes(randomNumber)){
+            arrayNumbersBomb.push(randomNumber)
+        }
+    }
 
 //funzione che mi genera una griglia
 function gridGenerate (grid){
