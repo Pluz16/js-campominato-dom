@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(143, 143, 186);
+}
+
+header{
+    background-color: rgb(177, 216, 113);
+    height: 100px;
+}
+
+.row{
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.box_difficult{
+    width:calc(100% / 7);
+    aspect-ratio: 1;
+    border: 1px solid hsl(26, 86%, 19%);
+    cursor: pointer;
+}
+
+.box_medium{
+    width: calc(100% / 9);
+    aspect-ratio: 1;
+    border: 1px solid hsl(26, 86%, 19%);
+    cursor: pointer;
+}
+
+.box_easy{
+    width: calc(100% / 10);
+    aspect-ratio: 1;
+    border: 1px solid rgb(84, 42, 18);
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(64, 174, 210);
+}
+
+.bomb{
+    background-color: red;
+}
